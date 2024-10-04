@@ -17,7 +17,7 @@
 
 HowTo compile sources
 
-# Comple & Linking
+# Compile and Linking
 
 ```Shell
 cd build
