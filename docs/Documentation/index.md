@@ -2,16 +2,17 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [](#)
+- [Documentation](#documentation)
   - [Categories](#categories)
   - [Documents](#documents)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# 
+# Documentation
 
 
 ## Categories
-- [Documentation](./Documentation/index.md)
+- [Architecture](./Architecture/index.md)
+- [Installation](./Installation/index.md)
 
 ## Documents
