@@ -36,9 +36,9 @@ ul.breadcrumb li a:hover {
 
   /*background-color: #ff00ff */
   /* background: var(--minima-border-color-03);*/
-  border: 1px solid var(--minima-border-color-03);
+  /*border: 1px solid var(--minima-border-color-01);*/
   border-radius: 5px;
-  background-color: var(--minima-border-color-01);
+  background-color: var(--minima-border-color-03);
 }
 
 article:not(:last-child),
