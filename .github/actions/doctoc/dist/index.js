@@ -24,7 +24,7 @@ require("./sourcemap-register.js");
             return (
               x.isFile() &&
               _(markdownExts).include(
-                path.extname(x.name) && !x.name.startsWith("index"))
+                path.extname(x.name) && !x.name.startsWith("index")
               )
             );
           }),
