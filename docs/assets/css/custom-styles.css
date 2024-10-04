@@ -3,6 +3,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.breadcrumbs {
+  width: 90%;
+  background-color: aqua;
+}
+
 ul.breadcrumb {
   /*padding: 10px 16px; */
   list-style: none;
