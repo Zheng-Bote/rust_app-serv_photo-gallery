@@ -35,7 +35,7 @@ ul.breadcrumb li a:hover {
   width: fit-content;
 
   /*background-color: #ff00ff */
-  background: var(--minima-border-color-03);
+  /* background: var(--minima-border-color-03);*/
   border: 1px solid black;
 }
 
