@@ -36,14 +36,20 @@ ul.breadcrumb li a:hover {
 
   /*background-color: #ff00ff */
   /* background: var(--minima-border-color-03);*/
-  border: 1px solid black;
+  border: 1px solid var(--minima-border-color-01);
+  border-radius: 5px;
+}
+
+article:not(:last-child),
+section:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 article:not([class^="post"]) {
   border: 1px solid;
   border-color: var(--minima-border-color-01);
   border-radius: 5px;
-  padding: 10px;
+  padding: 0 10px 0 10px;
 }
 article:not([class^="post"]) .text {
   max-width: 80ch;

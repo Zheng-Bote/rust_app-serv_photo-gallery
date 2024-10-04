@@ -67,6 +67,11 @@ cmake --install
 <p>und p text</p>
 </section>
 
+<section>
+<h3>mit h2 Überschrift</h3>
+<p>und p text</p>
+</section>
+
 # Artikel 2
 
 <article>
