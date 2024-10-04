@@ -5,11 +5,7 @@ run-name: GHP create/update markdown indexes by ${{ github.actor }}
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 * * * *"
-  push:
-    branches: [gh-pages]
-  page_build:
+  workflow_call:
 
 permissions:
   contents: write
