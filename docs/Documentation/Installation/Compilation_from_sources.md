@@ -4,10 +4,13 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 **Table of Contents**
 
 - [Brief](#brief)
+- [Compile and Linking](#compile-and-linking)
+- [checkboxes](#checkboxes)
+  - [markdown](#markdown)
+  - [html](#html)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
