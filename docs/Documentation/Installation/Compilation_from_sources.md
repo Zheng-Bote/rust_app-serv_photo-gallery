@@ -24,3 +24,18 @@ cd build
 cmake --build .
 cmake --install
 ```
+
+# checkboxes
+
+## markdown
+
+- [x] this one should be checked
+- [ ] this one is not checked
+
+## html
+
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car" checked>
+
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
