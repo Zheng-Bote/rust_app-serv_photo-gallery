@@ -13,7 +13,7 @@ require("./sourcemap-register.js");
         _ = __nccwpck_require__(5067);
 
       var markdownExts = [".md", ".markdown"];
-      var ignoredDirs = [".", "..", ".git", "node_modules", "index.md"];
+      var ignoredDirs = [".", "..", ".git", "node_modules"];
 
       function separateFilesAndDirs(fileInfos) {
         return {
@@ -21,7 +21,12 @@ require("./sourcemap-register.js");
             return x.isDirectory() && !_(ignoredDirs).include(x.name);
           }),
           markdownFiles: _(fileInfos).filter(function (x) {
-            return x.isFile() && _(markdownExts).include(path.extname(x.name));
+            return (
+              x.isFile() &&
+              _(markdownExts).include(
+                path.extname(x.name) && !x.startsWith("index")
+              )
+            );
           }),
         };
       }
