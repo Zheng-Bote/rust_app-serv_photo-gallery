@@ -28,7 +28,7 @@ jobs:
         with:
           folder: ./docs/Documentation/
           #filename: README.md
-          content-file: .content.md
+          #content-file: .content.md
           exclude: |
             about.md
             links.md
