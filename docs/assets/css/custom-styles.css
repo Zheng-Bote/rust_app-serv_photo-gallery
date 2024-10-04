@@ -37,6 +37,7 @@ ul.breadcrumb li a:hover {
 
 pre {
   background-color: black;
+  border-radius: 5px;
 }
 code.language-Shell {
   background-color: black;
