@@ -32,6 +32,9 @@ cmake --install
 - [x] this one should be checked
 - [ ] this one is not checked
 
+[x] this one should be checked
+[ ] this one is not checked
+
 ## html
 
 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
