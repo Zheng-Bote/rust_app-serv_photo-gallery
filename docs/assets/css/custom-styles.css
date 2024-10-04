@@ -39,21 +39,13 @@ ul.breadcrumb li a:hover {
   border: 1px solid black;
 }
 
-article,
-section {
-  border: 1px solid;
-  border-color: var(--minima-border-color-03);
-  border-radius: 5px;
-  padding: 10px;
-}
-
-article {
+article:not([class^="post"]) {
   border: 1px solid;
   border-color: var(--minima-border-color-01);
   border-radius: 5px;
   padding: 10px;
 }
-article .text {
+article:not([class^="post"]) .text {
   max-width: 80ch;
 }
 section {
