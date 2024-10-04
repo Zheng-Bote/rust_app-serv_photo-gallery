@@ -1,0 +1,31 @@
+title: app-serv_photo-gallery
+author:
+  name: ZHENG Robert
+  #email: no.spam@hotmail.dev
+description: Rust Rocket application server for a web-based photo-gallery
+
+remote_theme: jekyll/minima
+#theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: auto
+  social_links: 
+    - { platform: github,         user_url: "https://github.com/Zheng-Bote" }
+    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/robert-zheng-67899965/" }
+  date_format: "%Y-%m-%d %H:%M"
+
+
+author:
+  name: ZHENG Robert
+  #email: no.spam@hotmail.dev
+
+page_created: 2024-10-04
+page_url: https://zheng-bote.github.io/rust_app-serv_photo-gallery
+page_desc: application server for a web-based photo-gallery
+
+header_pages:
+  - about.md
+  - links.md
