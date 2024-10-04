@@ -1,0 +1,49 @@
+html {
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+ul.breadcrumb {
+  /*padding: 10px 16px; */
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: ">";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+pre {
+  background-color: black;
+}
+code.language-Shell {
+  background-color: black;
+  color: lightgreen;
+}
+
+input[type="checkbox"]:checked {
+  /*outline: 2px solid red;*/
+  accent-color: #535152;
+}
+
+.task-list-item-checkbox::before {
+  /*outline: 2px solid black;*/
+  accent-color: #535152;
+}
+
+.task-list-item-checkbox:checked {
+  accent-color: #535152;
+}
