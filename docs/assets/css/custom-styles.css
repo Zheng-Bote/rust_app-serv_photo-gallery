@@ -30,15 +30,15 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline;
-  /*
+
   padding: 2px;
   width: fit-content;
-  */
 
   /*background-color: #ff00ff */
   /* background: var(--minima-border-color-03);*/
-  border: 1px solid var(--minima-border-color-01);
+  border: 1px solid var(--minima-border-color-03);
   border-radius: 5px;
+  background-color: var(--minima-border-color-01);
 }
 
 article:not(:last-child),
