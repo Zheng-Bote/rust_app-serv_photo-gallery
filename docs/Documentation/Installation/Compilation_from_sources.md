@@ -31,9 +31,26 @@ HowTo compile sources
 # Compile and Linking
 
 ```Shell
-cd build
+cd src
+conan install . --output-folder=../build --build=missing
+
+cd ../build
+cmake -S ../src -B . -G "Unix Makefiles" -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake  -DCMAKE_POLICY_DEFAULT_CMP0091=NEW -DCMAKE_BUILD_TYPE=Release
+
+# cmake --build . --parallel <number of CPU cores>
 cmake --build .
-cmake --install
+
+# generate Doxygen documentation with
+cd build
+cmake --build . --target doxygen
+
+# packaging
+cd build && sudo cpack -G "ZIP;DEB;RPM" -B packages
+# or
+cd build && sudo cmake --build . --target package
+
+# packaging sources
+cd build && sudo cmake --build . --target  package_source
 ```
 
 # Description
