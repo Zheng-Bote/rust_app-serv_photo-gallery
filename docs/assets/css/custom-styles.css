@@ -4,7 +4,7 @@ html {
 }
 
 .breadcrumbs {
-  max-width: 80ch;
+  width: 800px;
   background-color: aqua;
   margin: auto;
 }

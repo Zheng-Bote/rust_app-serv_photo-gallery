@@ -21,12 +21,7 @@ require("./sourcemap-register.js");
             return x.isDirectory() && !_(ignoredDirs).include(x.name);
           }),
           markdownFiles: _(fileInfos).filter(function (x) {
-            return (
-              x.isFile() &&
-              _(markdownExts).include(
-                path.extname(x.name) && !x.name.startsWith("index")
-              )
-            );
+            return x.isFile() && _(markdownExts).include(path.extname(x.name));
           }),
         };
       }
