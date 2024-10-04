@@ -4,6 +4,7 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Brief](#brief)
@@ -54,27 +55,22 @@ cmake --install
 # Artikel
 
 <article>
-<h2>mit h2 Überschrift</h2>
+<h3>mit h2 Überschrift</h3>
 <p>und p text</p>
-</article>
-
-<article>
-## mit raute Überschrift
-
-und text
-
 </article>
 
 # Sektion
 
 <section>
-<h2>mit h2 Überschrift</h2>
+<h3>mit h2 Überschrift</h3>
 <p>und p text</p>
 </section>
 
-<section>
-## mit raute Überschrift
-
-und text
-
-</section>
+<article>
+<h3>80 Text</h3>
+<div class="text">
+<p>
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</p>
+</div>
+</article>

@@ -5,7 +5,7 @@ html {
 
 .breadcrumbs {
   width: 800px;
-  background-color: aqua;
+  /*background-color: aqua;*/
   margin: auto;
 }
 
@@ -39,6 +39,37 @@ ul.breadcrumb li a:hover {
   border: 1px solid oklch(100% 0 0 / 20%);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+}
+
+a[href^="https"] {
+  padding-right: 1em;
+  background: url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2012%2012%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpolygon%20fill%3D%22blue%22%20points%3D%222%2C2%205%2C2%205%2C3%203%2C3%203%2C9%209%2C9%209%2C7%2010%2C7%2010%2C10%202%2C10%22/%3E%3Cpolygon%20points%3D%226.2%2C2%2010%2C2%2010%2C5.8%208.6%2C4.4%206.5%2C6.5%205.5%2C5.5%207.6%2C3.4%22/%3E%3C/svg%3E")
+    no-repeat right;
+  background-size: 11px auto;
+}
+
+article,
+section {
+  border: 1px solid;
+  border-color: var(--minima-border-color-03);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+article {
+  border: 1px solid;
+  border-color: var(--minima-border-color-01);
+  border-radius: 5px;
+  padding: 10px;
+}
+article .text {
+  max-width: 80ch;
+}
+section {
+  border: 1px solid;
+  border-color: var(--minima-border-color-02);
+  border-radius: 5px;
+  padding: 10px;
 }
 
 pre {
